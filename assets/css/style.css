@@ -50,16 +50,16 @@ body {
 }
 .boxOne, .boxTwo, .boxThree {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
+    font-size: 15px;
     color: #cccccc;
     float: right;
-    padding-left: 10px;
+    padding-left: 20px;
     text-decoration: none;
     
 }
 
 .boxTwo, .boxThree {
-    padding-right: 10px;
+    padding-right: 20px;
 }
 
 .boxTwo {
@@ -99,6 +99,8 @@ p {
     border-top: #dddddd 2px solid;
     padding-top: 20px;
     margin-top: 10px;
+    margin: 0 auto;
+    overflow: auto;
 }
 .burger {
     width: 150px;
@@ -121,7 +123,7 @@ h1 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 10px;
     text-align: center;
-    line-height: 100px;
+    line-height: 130px;
     border-top: #4aaaa5 8px solid;
     height: 100px;
     width: 100%;
@@ -161,4 +163,35 @@ button {
 button:hover {
     background-color: aqua;
 }
+.index {
+    width: 916;
+    height: auto;
 }
+.index {
+    background-color: #4aaaa5;
+    height: 270px;
+    width: 272px;
+    float: left;
+}
+
+.rowOne, .rowTwo {
+    margin: 0 auto;
+    overflow: auto;
+    margin-bottom: 20px;
+
+}
+.rowTwo {
+    margin-top: 30px;
+}
+.indexTwo, .indexFive {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.indexThree, .indexSix {
+    float: right;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
